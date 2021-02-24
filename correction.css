@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 100%;
+    padding: 0 80px;
+    margin: 0 auto;
+    
+}
+@media(min-width:576px){
+    .container{
+        
+        max-width: 540px;
+    
+    
+}
+@media(min-width:768px){
+    .container{
+        
+        max-width: 720px;
+        
+    }
+  
+    
+}
+@media(max-width:768px){
+    
+    
+}
+@media(min-width:992px){
+    .container{
+        
+        max-width: 960px;
+    }
+    
+}
+@media(min-width:1200px){
+    .container{
+        
+        max-width: 1152px;
+    }
+    
+}
+
+header.top-bar{
+    background: black;
+    color: white;
+    padding: 1rem 0;
+}
+.icon i{
+    
+    color: #ffd43b;
+    margin-right: 15px;
+    margin-top: 7px;
+}
+.icon{
+    margin-left: 25px;
+    
+}
+.btn button{
+    margin-top: 10px;
+    color: white;
+    transition: all .5 ease;
+    padding: .5rem;
+    font-size: 15px;
+    background-color: #02b4c0;
+    border-radius: 25px;
+    border: 1px solid transparent;
+
+}
+    .grid{
+        display: grid;
+    }
+.navbar span{
+    font-size: 1.3rem;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    
+}
+.navbar{
+    background-color: #c9143f
+}
+.navbar h6{
+    color: white;
+    font-size: 13px;
+    font-family: 'Rubik', sans-serif;
+    padding: 15px;
+}
+
+.paragraph p{
+    font-family: 'Rubik', sans-serif;
+}
+
+.main {
+    height: 400px;
+    max-width: 100%;
+    background-image: url(../images/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+/*    background-color: #d3e0e7;*/
+    
+}
+.paragraph{
+    margin-left: 80px;
+}
+.paragraph h1{
+    margin-top: 25px;
+   font-family: 'Hammersmith One', sans-serif;
+}
+.paragraph p{
+/*font-family: 'Libre Franklin', sans-serif;*/
+}
+.wed{
+    margin-left: 50px;
+}
+.hero-img{
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    margin-top: 100px;
+/*    background-position: center center fixed;*/
+    max-width: 100%
+}
+.nd{
+    margin-left: 80px;
+}
+.services-card{
+    margin-right: 25px;
+    background-color: #ffd43b;
+    text-align: center;
+    padding: 2rem;
+    padding-top: 3rem;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.services-card img{
+    position: absolute;
+    top: -50px;
+    left:50%;
+    transform: translateX(-50%);
+    
+}
+.services-card h2{
+    font-family: 'Hammersmith One', sans-serif;
+    
+}
+.services-card p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.2;
+    
+}
+.card-wrapper{
+    margin-top: 100px;
+    margin-right: -2rem;
+/*    display: flex;*/
+    flex-wrap: wrap;
+   
+}
+.sale{
+    height: 400px;
+    width: 100%;
+    background-color: #325f80;
+    
+}
+.text-area h1{
+    padding-top: 25px;
+    color: white;
+    font-family: 'Hammersmith One', sans-serif;
+}
+.text-area p{
+    margin-top: 20px;
+    color: white;
+     font-family: 'Rubik', sans-serif;
+}
+.pics img{
+    margin-top: 40px;
+    width: 200px;
+    
+    margin-right: 15px;
+    
+}
+
+.ndi{
+    margin-top: 40px;
+}
+.views h1{
+    padding-top: 25px;
+    color: black;
+     font-family: 'Hammersmith One', sans-serif;
+}
+.views p{
+    
+    margin-top: 10px;
+    color: black;
+     font-family: 'Rubik', sans-serif;
+}
+.rating-card{
+     margin-right: 25px;
+    background-color: white;
+    text-align: center;
+    padding: 0.8rem;
+    padding-top: 3rem;
+    position: relative;
+    border-radius: 10px;
+}
+.rating-card img{
+    width: 150px;
+    margin-right: 25px;
+}
+.rating-card p{
+    
+    margin-top: 25px;
+    font-family: 'Rubik', sans-serif;
+    
+}
+.stars{
+/*    flex-wrap: wrap;*/\
+        flex-wrap: wrap;
+}
+.img-stars{
+    
+    align-items: center;
+    margin-right: 25px;
+/*    padding: 1rem;*/
+
+}
+.img-section img{
+    width: 350px;
+    margin-top: 40px;
+    margin-left: 200px;
+/*     flex-wrap: wrap;*/
+}
+.text-section{
+    margin-top: 100px;
+/*     flex-wrap: wrap;*/
+}
+.web-dev{
+    height: 400px;
+    background-color: #ffd43b;
+/*   flex-wrap: wrap;*/
+}
+
+.text-section h1{
+     font-family: 'Hammersmith One', sans-serif;
+    font-size: 2rem;
+}
+
+.text-section span{
+    font-size: 1.5rem;
+}
+h1 .free{
+    color: red;
+    font-size: 3rem;
+}
+.text-section p{
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.5;
+}
+.features-wrapper{
+    margin-right: 25px;
+    background-color: white;
+    text-align: center;
+    padding: 0.8rem;
+    padding-top: 3rem;
+    position: relative;
+    border-radius: 10px;
+}
+.heading h1{
+    font-family: 'Hammersmith One', sans-serif;
+    margin-top: 50px;
+}
+.benefits{
+    height: 500px;
+    
+    
+}
+.features h3 {
+      font-family: 'Hammersmith One', sans-serif;
+    
+}
+.features p{
+    font-family: 'Rubik', sans-serif;
+}
+
+.registery{
+    height: 200px;
+     width: 100%;
+    background-color: #325f80;
+}
+.registery h2{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    
+}
+.end-section{
+   padding-top: 60px;
+}
+
+footer{
+    height: 50px;
+     font-family: 'Rubik', sans-serif;
+    font-size: 0.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Classes*/
+
+.text-center{
+    
+ text-align: center;   
+    
+}
+
+.flex{
+    
+    display: flex;
+}
+.space-between{
+ justify-content: space-between;   
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.active{
+    background: #ffd43b;
+    color: white;
+}
+.flex-1{
+    flex:1;
+    
+}
